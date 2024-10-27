@@ -1,0 +1,39 @@
+<script setup>
+import HelloWorld from './components/HelloWorld.vue'
+</script>
+
+<template>
+
+<div class="w-full min-h-screen flex flex-col  ">
+    <header style="font-family:" class="mx-auto my-auto italic text-5xl">5555</header>
+    <div class="flex  mx-auto my-auto">
+    <a href="https://vite.dev" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/en/9/95/Rex_Orange_County_-_Pony.png" class=" bg-white/70 backdrop-blur-sm  gap-10 px-4 py-3 rounded-md shadow-md m-5"  width=250px  />
+    </a>
+    <a href="https://vuejs.org/" target="_blank">
+      <img src="https://i.scdn.co/image/ab67616d0000b2731bd6d088d3d81972af4cb81d" class="  bg-white/70 backdrop-blur-sm  gap-10 px-4 py-3 rounded-md shadow-md m-5"  width="250px"/>
+    </a>
+    <a href="https://vuejs.org/" target="_blank">
+      <img src="https://i.scdn.co/image/ab67616d0000b2735b656d32ea6b0b9c54c2d2e0" class=" bg-white/70 backdrop-blur-sm  gap-10 px-4 py-3 rounded-md shadow-md m-5" width="250px"/>
+    </a>
+    <a href="https://vuejs.org/" target="_blank">
+      <img src="https://i.scdn.co/image/ab67616d00001e02fe1854cea6c63b2ba726a299" class=" bg-white/70 backdrop-blur-sm  gap-10 px-4 py-3 rounded-md shadow-md m-5"  width="250px" />
+    </a>
+ 
+
+  </div>
+</div>
+
+  
+  
+</template>
+
+
+
+
+
+<style>
+ body{
+    @apply bg-amber-100
+ }
+</style>
